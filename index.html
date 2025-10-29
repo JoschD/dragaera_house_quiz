@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - PyScript</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.10.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.10.3/core.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .info {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        #chart-container {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .bar {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .bar-label {
+            width: 100px;
+            font-weight: 500;
+            color: #333;
+        }
+        .bar-visual {
+            flex-grow: 1;
+            height: 30px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            color: white;
+            font-weight: bold;
+            transition: width 0.3s ease;
+        }
+        .counter {
+            text-align: center;
+            margin: 30px 0;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+        #counter-display {
+            font-size: 48px;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+        #loading {
+            text-align: center;
+            color: #667eea;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Hello World with PyScript! 🐍</h1>
+        <p class="info">
+            This page runs Python directly in your browser!
+        </p>
+
+        <div id="loading">Loading PyScript...</div>
+
+        <div id="chart-container" style="display: none;">
+            <h2>Interactive Bar Chart (Pure Python!)</h2>
+            <div id="chart"></div>
+        </div>
+
+        <div class="counter" style="display: none;" id="counter-section">
+            <h2>Interactive Counter</h2>
+            <div id="counter-display">0</div>
+            <button id="increment">Increment</button>
+            <button id="decrement">Decrement</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div class="footer">
+            <p>Running Python in Browser with PyScript 🚀</p>
+        </div>
+    </div>
+
+    <script type="py" src="./app.py" config="./pyscript.json"></script>
+</body>
+</html>
