@@ -235,6 +235,14 @@ def restart_quiz(event):
 # Initialize
 def init():
     """Initialize the quiz"""
+    # Make sure DOM is ready
+    if document.readyState == "loading":
+        # DOM not ready yet, wait for it
+        def on_ready(event):
+            init()
+        document.addEventListener("DOMContentLoaded", on_ready)
+        return
+
     print("Quiz initialized! 🎉")
     init_user_state()
     show_screen('welcome-screen')
