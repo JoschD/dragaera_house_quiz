@@ -4,7 +4,6 @@
     "./questions.json": "./questions.json",
     "./answers.json": "./answers.json",
     "./house_colors.json": "./house_colors.json",
-    "./houses.json": "./houses.json",
-    "./favicon.ico": "./favicon.ico"
+    "./houses.json": "./houses.json"
   }
 }
