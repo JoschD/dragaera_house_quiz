@@ -1,0 +1,182 @@
+{
+  "default": {
+    "bg_gradient": "linear-gradient(135deg, #2c1810 0%, #1a0f08 100%)",
+    "card_bg": "#f4e8d8",
+    "border_color": "#8b6f47",
+    "heading_color": "#2c1810",
+    "text_color": "#3a2817",
+    "accent_color": "#8b6f47",
+    "button_bg": "#8b6f47",
+    "button_hover": "#6d5837"
+  },
+  "Dragon": {
+    "bg_gradient": "linear-gradient(135deg, #8B0000 0%, #2C0000 100%)",
+    "card_bg": "#FFF5F5",
+    "border_color": "#8B0000",
+    "heading_color": "#8B0000",
+    "text_color": "#2C0000",
+    "accent_color": "#DC143C",
+    "button_bg": "#8B0000",
+    "button_hover": "#660000"
+  },
+  "Dzur": {
+    "bg_gradient": "linear-gradient(135deg, #1a1a1a 0%, #000000 100%)",
+    "card_bg": "#F5F5F5",
+    "border_color": "#2F4F4F",
+    "heading_color": "#000000",
+    "text_color": "#1a1a1a",
+    "accent_color": "#C0C0C0",
+    "button_bg": "#2F4F4F",
+    "button_hover": "#1a1a1a"
+  },
+  "Lyorn": {
+    "bg_gradient": "linear-gradient(135deg, #2E8B57 0%, #1C5739 100%)",
+    "card_bg": "#F0FFF0",
+    "border_color": "#2E8B57",
+    "heading_color": "#1C5739",
+    "text_color": "#0F3D23",
+    "accent_color": "#3CB371",
+    "button_bg": "#2E8B57",
+    "button_hover": "#1C5739"
+  },
+  "Tiassa": {
+    "bg_gradient": "linear-gradient(135deg, #FFD700 0%, #B8860B 100%)",
+    "card_bg": "#FFFEF0",
+    "border_color": "#DAA520",
+    "heading_color": "#B8860B",
+    "text_color": "#6B5D0F",
+    "accent_color": "#FFD700",
+    "button_bg": "#DAA520",
+    "button_hover": "#B8860B"
+  },
+  "Hawk": {
+    "bg_gradient": "linear-gradient(135deg, #8B4513 0%, #5C2E0A 100%)",
+    "card_bg": "#FFF8DC",
+    "border_color": "#A0522D",
+    "heading_color": "#654321",
+    "text_color": "#3E2723",
+    "accent_color": "#CD853F",
+    "button_bg": "#8B4513",
+    "button_hover": "#5C2E0A"
+  },
+  "Orca": {
+    "bg_gradient": "linear-gradient(135deg, #4682B4 0%, #1C3D5C 100%)",
+    "card_bg": "#F0F8FF",
+    "border_color": "#4682B4",
+    "heading_color": "#1C3D5C",
+    "text_color": "#0D1F2E",
+    "accent_color": "#5F9EA0",
+    "button_bg": "#4682B4",
+    "button_hover": "#1C3D5C"
+  },
+  "Jhereg": {
+    "bg_gradient": "linear-gradient(135deg, #4B0082 0%, #2E0052 100%)",
+    "card_bg": "#F8F4FF",
+    "border_color": "#6A0DAD",
+    "heading_color": "#4B0082",
+    "text_color": "#2E0052",
+    "accent_color": "#8B00FF",
+    "button_bg": "#6A0DAD",
+    "button_hover": "#4B0082"
+  },
+  "Yendi": {
+    "bg_gradient": "linear-gradient(135deg, #228B22 0%, #0F4D0F 100%)",
+    "card_bg": "#F5FFF5",
+    "border_color": "#006400",
+    "heading_color": "#0F4D0F",
+    "text_color": "#053305",
+    "accent_color": "#32CD32",
+    "button_bg": "#228B22",
+    "button_hover": "#0F4D0F"
+  },
+  "Chreotha": {
+    "bg_gradient": "linear-gradient(135deg, #FF8C00 0%, #CC6600 100%)",
+    "card_bg": "#FFF5E6",
+    "border_color": "#FF8C00",
+    "heading_color": "#CC6600",
+    "text_color": "#994D00",
+    "accent_color": "#FFA500",
+    "button_bg": "#FF8C00",
+    "button_hover": "#CC6600"
+  },
+  "Iorich": {
+    "bg_gradient": "linear-gradient(135deg, #FFFFFF 0%, #E0E0E0 100%)",
+    "card_bg": "#FFFFFF",
+    "border_color": "#A9A9A9",
+    "heading_color": "#505050",
+    "text_color": "#303030",
+    "accent_color": "#D3D3D3",
+    "button_bg": "#808080",
+    "button_hover": "#606060"
+  },
+  "Tsalmoth": {
+    "bg_gradient": "linear-gradient(135deg, #708090 0%, #434B52 100%)",
+    "card_bg": "#F8F8FF",
+    "border_color": "#708090",
+    "heading_color": "#434B52",
+    "text_color": "#2F353A",
+    "accent_color": "#98A8B8",
+    "button_bg": "#708090",
+    "button_hover": "#434B52"
+  },
+  "Vallista": {
+    "bg_gradient": "linear-gradient(135deg, #A0522D 0%, #6B3410 100%)",
+    "card_bg": "#FAF0E6",
+    "border_color": "#A0522D",
+    "heading_color": "#6B3410",
+    "text_color": "#4A2409",
+    "accent_color": "#CD853F",
+    "button_bg": "#A0522D",
+    "button_hover": "#6B3410"
+  },
+  "Jhegaala": {
+    "bg_gradient": "linear-gradient(135deg, #8B4789 0%, #5C2E5A 100%)",
+    "card_bg": "#FFF0FA",
+    "border_color": "#8B4789",
+    "heading_color": "#5C2E5A",
+    "text_color": "#3D1F3B",
+    "accent_color": "#DA70D6",
+    "button_bg": "#8B4789",
+    "button_hover": "#5C2E5A"
+  },
+  "Athyra": {
+    "bg_gradient": "linear-gradient(135deg, #191970 0%, #0C0C38 100%)",
+    "card_bg": "#F0F0FF",
+    "border_color": "#191970",
+    "heading_color": "#0C0C38",
+    "text_color": "#06061C",
+    "accent_color": "#4169E1",
+    "button_bg": "#191970",
+    "button_hover": "#0C0C38"
+  },
+  "Phoenix": {
+    "bg_gradient": "linear-gradient(135deg, #FF4500 0%, #CC3700 100%)",
+    "card_bg": "#FFF5F0",
+    "border_color": "#FF6347",
+    "heading_color": "#CC3700",
+    "text_color": "#8B2500",
+    "accent_color": "#FF6347",
+    "button_bg": "#FF4500",
+    "button_hover": "#CC3700"
+  },
+  "Teckla": {
+    "bg_gradient": "linear-gradient(135deg, #8FBC8F 0%, #5A7A5A 100%)",
+    "card_bg": "#F5FFF5",
+    "border_color": "#6B8E6B",
+    "heading_color": "#3D5A3D",
+    "text_color": "#2A3F2A",
+    "accent_color": "#90EE90",
+    "button_bg": "#6B8E6B",
+    "button_hover": "#5A7A5A"
+  },
+  "Issola": {
+    "bg_gradient": "linear-gradient(135deg, #FFB6C1 0%, #CC8C99 100%)",
+    "card_bg": "#FFF0F5",
+    "border_color": "#FFB6C1",
+    "heading_color": "#CC8C99",
+    "text_color": "#996677",
+    "accent_color": "#FFC0CB",
+    "button_bg": "#FFB6C1",
+    "button_hover": "#CC8C99"
+  }
+}

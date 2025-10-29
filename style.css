@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-gradient, linear-gradient(135deg, #2c1810 0%, #1a0f08 100%));
+    min-height: 100vh;
+    transition: background 0.8s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.card {
+    background: var(--card-bg, #f4e8d8);
+    border: 3px solid var(--border-color, #8b6f47);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: var(--heading-color, #2c1810);
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--heading-color, #2c1810);
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    color: var(--text-color, #3a2817);
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.question-text {
+    color: var(--text-color, #3a2817);
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-style: italic;
+    padding: 20px;
+    background: rgba(139, 111, 71, 0.1);
+    border-left: 4px solid var(--border-color, #8b6f47);
+    border-radius: 4px;
+}
+
+.choices {
+    margin: 30px 0;
+}
+
+.choice {
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid var(--border-color, #8b6f47);
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 12px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.choice:hover {
+    background: rgba(139, 111, 71, 0.2);
+    transform: translateX(5px);
+}
+
+.choice.selected {
+    background: var(--accent-color, #8b6f47);
+    color: white;
+    border-color: var(--accent-color, #8b6f47);
+}
+
+.choice input[type="radio"] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.importance-section {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(139, 111, 71, 0.1);
+    border-radius: 8px;
+}
+
+.importance-label {
+    color: var(--text-color, #3a2817);
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.importance-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.importance-option {
+    flex: 1;
+    text-align: center;
+}
+
+.importance-option input[type="radio"] {
+    margin-right: 8px;
+}
+
+.importance-option label {
+    cursor: pointer;
+    color: var(--text-color, #3a2817);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+button {
+    background: var(--button-bg, #8b6f47);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Georgia', serif;
+    flex: 1;
+}
+
+button:hover {
+    background: var(--button-hover, #6d5837);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress {
+    text-align: center;
+    color: var(--text-color, #3a2817);
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.results-chart {
+    margin: 30px 0;
+}
+
+.result-bar {
+    margin: 20px 0;
+}
+
+.result-label {
+    color: var(--text-color, #3a2817);
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-bar-container {
+    background: rgba(139, 111, 71, 0.2);
+    border-radius: 8px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.result-bar-fill {
+    background: var(--accent-color, #8b6f47);
+    height: 100%;
+    transition: width 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.house-description {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(139, 111, 71, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-color, #8b6f47);
+}
+
+#loading {
+    text-align: center;
+    color: #f4e8d8;
+    font-style: italic;
+    padding: 50px;
+}

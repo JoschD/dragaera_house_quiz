@@ -1,3 +1,9 @@
 {
-  "packages": []
+  "packages": ["numpy"],
+  "files": {
+    "./questions.json": "./questions.json",
+    "./answers.json": "./answers.json",
+    "./house_colors.json": "./house_colors.json",
+    "./houses.json": "./houses.json"
+  }
 }

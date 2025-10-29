@@ -3,123 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World - PyScript</title>
-    <link rel="stylesheet" href="https://pyscript.net/releases/2025.10.3/core.css">
-    <script type="module" src="https://pyscript.net/releases/2025.10.3/core.js"></script>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        .info {
-            text-align: center;
-            color: #666;
-            font-size: 18px;
-            margin: 20px 0;
-        }
-        #chart-container {
-            margin-top: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        .bar {
-            display: flex;
-            align-items: center;
-            margin: 10px 0;
-        }
-        .bar-label {
-            width: 100px;
-            font-weight: 500;
-            color: #333;
-        }
-        .bar-visual {
-            flex-grow: 1;
-            height: 30px;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            padding-left: 10px;
-            color: white;
-            font-weight: bold;
-            transition: width 0.3s ease;
-        }
-        .counter {
-            text-align: center;
-            margin: 30px 0;
-        }
-        button {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 5px;
-            transition: transform 0.2s;
-        }
-        button:hover {
-            transform: scale(1.05);
-        }
-        #counter-display {
-            font-size: 48px;
-            color: #667eea;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #666;
-            font-size: 14px;
-        }
-        #loading {
-            text-align: center;
-            color: #667eea;
-            font-style: italic;
-        }
-    </style>
+    <title>Which House of the Dragaeran Empire Are You?</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>🎉 Hello World with PyScript! 🐍</h1>
-        <p class="info">
-            This page runs Python directly in your browser!
-        </p>
+        <div id="loading">Loading the Cycle...</div>
 
-        <div id="loading">Loading PyScript...</div>
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="card hidden">
+            <h1>Which House of the Dragaeran Empire Are You?</h1>
+            <div class="intro-text">
+                <p>Greetings, dear reader! It is with great pleasure and no small amount of ceremony that we present to you this modest examination of character, designed in the manner which has been approved by the finest scholars of the Empire.</p>
 
-        <div id="chart-container" style="display: none;">
-            <h2>Interactive Bar Chart (Pure Python!)</h2>
-            <div id="chart"></div>
+                <p>Through a series of carefully considered scenarios—presented, if we may be so bold, created by your esteemed Paarfi of Roundwood—you shall be asked to make choices that reflect your nature, your values, and your inclinations.</p>
+
+                <p>At the conclusion of this inquiry, we shall determine which of the Great Houses your spirit most closely aligns with. Answer honestly, for the Cycle sees all!</p>
+            </div>
+            <div class="buttons">
+                <button id="start-quiz">Begin the Examination</button>
+            </div>
         </div>
 
-        <div class="counter" style="display: none;" id="counter-section">
-            <h2>Interactive Counter</h2>
-            <div id="counter-display">0</div>
-            <button id="increment">Increment</button>
-            <button id="decrement">Decrement</button>
-            <button id="reset">Reset</button>
+        <!-- Question Screen -->
+        <div id="question-screen" class="card hidden">
+            <div class="progress" id="progress">Question 1 of 2</div>
+            <h2 id="question-title">Question Title</h2>
+            <div class="question-text" id="question-text">Question text goes here</div>
+
+            <div class="choices" id="choices">
+                <!-- Choices will be populated by Python -->
+            </div>
+
+            <div class="importance-section">
+                <span class="importance-label">How important is this question to you?</span>
+                <div class="importance-options">
+                    <div class="importance-option">
+                        <input type="radio" id="importance-low" name="importance" value="1">
+                        <label for="importance-low">Less Important</label>
+                    </div>
+                    <div class="importance-option">
+                        <input type="radio" id="importance-normal" name="importance" value="2" checked>
+                        <label for="importance-normal">Normal</label>
+                    </div>
+                    <div class="importance-option">
+                        <input type="radio" id="importance-high" name="importance" value="3">
+                        <label for="importance-high">Very Important</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="back-btn">Back</button>
+                <button id="next-btn" disabled>Next</button>
+            </div>
         </div>
 
-        <div class="footer">
-            <p>Running Python in Browser with PyScript 🚀</p>
+        <!-- Results Screen -->
+        <div id="results-screen" class="card hidden">
+            <h1>Your Results</h1>
+            <div class="intro-text">
+                <p>The examination is complete! After careful consideration of your responses, we have calculated your affinity with each of the Great Houses.</p>
+            </div>
+
+            <div class="results-chart" id="results-chart">
+                <!-- Results will be populated by Python -->
+            </div>
+
+            <div class="house-description" id="house-description">
+                <!-- Winner description will be populated by Python -->
+            </div>
+
+            <div class="buttons">
+                <button id="restart-btn">Take the Quiz Again</button>
+            </div>
         </div>
     </div>
 

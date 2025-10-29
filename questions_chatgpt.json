@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Ashes and Applause",
+    "text": "At the Imperial Opera the final scene ends—quite literally—with the stage bursting into a controlled inferno as a summoned phoenix incarnates and flies over the audience, shedding burning feathers that singe wigs and set a chandelier wobbling. The Empress looks at you expectantly, the orchestra waits, and half the gallery is reaching for napkins while the other half reaches for quills. Do you:",
+    "choices": [
+      "Stand and declaim, improvising a new national hymn about rising from ruin, ensuring the next performance opens with your portrait.",
+      "Calmly peel a burning feather from your sleeve, hand it to the nearest constable with precise instructions on preservation, and file for accreditation with the Conservatory.",
+      "Pocket a feather, scribble a satirical couplet, and surreptitiously sell the rest to a charm-broker for a tidy profit."
+    ]
+  },
+  {
+    "title": "The Duel of Doctrines",
+    "text": "A pontiff and a philosopher arrive at dawn to debate whether law or valor binds a nation; their argument escalates into a ritual duel over the city gate, with banners, trumpets, and a wager that the loser's library will be burned. You are summoned as arbiter. The crowd roars like hungry wolves and the librarian clasps a cat that hisses at everyone. Do you:",
+    "choices": [
+      "Rule according to the oldest codices, citing precedent and exacting ritual penalties with an orator's flourish.",
+      "Step onto the parapet, sword drawn, and insist the duel proceed under terms you set—heroic, fair, and suitably dramatic.",
+      "Quietly broker a third option: bind both men into a profitable publishing partnership and keep both libraries intact."
+    ]
+  },
+  {
+    "title": "Ledger of Scattered Souls",
+    "text": "You inherit an estate whose ledgers show a long line of elegant embezzlement: funds skimmed to keep artisan guilds from starving through a terrible famine. The magistrate demands prosecution; your conscience demands gratitude; the vintner demands compensation. Do you:",
+    "choices": [
+      "Arrange a public accounting ceremony where the steward confesses, receives measured censure, and the artisans are ennobled as dependents.",
+      "Commission a judicial review that codifies the practice into law—turning a peccadillo into precedent.",
+      "Sell the estate quietly, plant the money in a fund that bears your name, and let rumor ascribe the morality as it sees fit."
+    ]
+  },
+  {
+    "title": "The Tale That Would Not Wait",
+    "text": "A stranger brings you, at midnight in a rain-soaked alley, a parchment describing a conspiracy that, if true, would topple three viziers and a duke. The stranger says: 'Read it, edit for drama, and decide.' The city sleeps uneasily; lamps sputter; rats applaud with tiny paws. Do you:",
+    "choices": [
+      "Accept the story, plot a theatrical unmasking at dawn that will save the city and ensure your name sings in taverns for years.",
+      "Deliver the parchment to the correct authorities covertly, then leave a marginal note proposing a staged retelling for public morale.",
+      "Rewrite it completely into a serial pamphlet, spread it through the alleys, and watch the conspiracy blossom as delicious gossip."
+    ]
+  },
+  {
+    "title": "The Hawk's Last Flight",
+    "text": "On a cliff-side hunt a lightning storm wakes the mountain; an enormous prey—an almost-mythic stag of silver antlers—charges between you and an allied captain who slips and hangs over the void. The beast's final leap will either kill the captain or let the stag flee to legend. The wind smells of iron and boiled tea. Do you:",
+    "choices": [
+      "Divert the beast with a precise arrow, then pull your captain up with the practiced strength of one who understands bonds.",
+      "Calculate the odds, save the prize, and later demand a ledger entry recording the debt owed for the rescue.",
+      "Allow the beast to pass unimpeded, then compose an elegy so moving that posterity pardons your pragmatism."
+    ]
+  },
+  {
+    "title": "Barrels and Bluster",
+    "text": "A tavern explodes into uproar when a traveling swordsman accuses you publicly of stealing his crest—an accusation easily disproved only by a messy brawl that would spill into the street, rankle three ambassadors, and flatten a fruit cart. A merchant offers you a private contract: avoid the scandal for a price. Do you:",
+    "choices": [
+      "Stand, draw, and with one magnificent motion teach the swordsman the difference between rumor and reality.",
+      "Agree to the merchant's retainer, settle the matter quietly, and add a clause ensuring future protection for any similar incident.",
+      "Stage a diversion—arrange for a mole to declare the swordsman a fraud—then sell the whole episode as a cautionary play."
+    ]
+  },
+  {
+    "title": "The Uninvited of the Evening",
+    "text": "During a table of state, a bedraggled storyteller crashes the meal and begins to tell an obscene but irresistible saga of a secret love between two high councillors. Guests gasp; a glass smashes; the Empress's great-aunt coughs theatrical disapproval. The storyteller eyes you as if you hold the key to their fate. Do you:",
+    "choices": [
+      "Invite them to finish, provide them wine and a velvet chair, and ensure their story changes policy more than any decree could.",
+      "Signal the steward to escort them gently away, then commission a hush-money stipend to buy their silence.",
+      "Listen until the precise scandalous moment, then leak it yourself under a pseudonym for maximum political leverage."
+    ]
+  },
+  {
+    "title": "Gold Under the Parlor",
+    "text": "You uncover a cellar where a collection of stolen coins and incriminating letters lies beneath the floorboards of a relative famed for virtue. The letters mention a forgotten rebellion and names that, if aired, would topple baronies. A storm rattles the shutters as if gossip itself were knocking. Do you:",
+    "choices": [
+      "Return the trove openly, demand a public remembrance ceremony that rewrites history as penitent rebirth.",
+      "Create a convoluted legal pretext declaring the cache yours by right of discovery and write a polite ransom for the letters.",
+      "Copy the letters, plant false names to divert blame, and use the gold to fund a private venture with clandestine aims."
+    ]
+  },
+  {
+    "title": "Blueprints in the Sky",
+    "text": "You have poured a decade into an architectural marvel: a floating citadel of glass and brass that will either revolutionize defense or bankrupt the empire. The patron hints at trimming the most flamboyant spires 'for speed.' Carpenters weep at the thought; the city's skylines hold their breath. Do you:",
+    "choices": [
+      "Refuse any compromise and continue, even if that means funding the gap with your own name and credit.",
+      "Rework the plans to preserve function while conceding minor ornament, delivering on time and secure your reputation as pragmatic genius.",
+      "Sell the original designs to a rival architect, build the simplified version, and secretly begin the true citadel on a private isle."
+    ]
+  },
+  {
+    "title": "Coins in the Dark",
+    "text": "A merchant prince offers you involvement in a lucrative trade that skirts the law—smuggling contraband past customs—offering riches, influence, and deniability. A chorus of small hands counts coins beneath the table. The night smells of spice and danger. Do you:",
+    "choices": [
+      "Accept, but arrange the operation through layers of proxies so your name never meets the police's ledger.",
+      "Decline publicly, then funnel a secret investment through shadow partners so you profit without stain.",
+      "Refuse and immediately blackmail the merchant with knowledge gleaned in confidence, turning profit from principle."
+    ]
+  },
+  {
+    "title": "Judges, Jousts, and Jurisprudence",
+    "text": "Two houses summon you to adjudicate an ancient feud over ten acres, a shrine, and the honor of a ghost. Witnesses include a priest who speaks in hexameters and a child who insists the land hums at midnight. The Chancellor is watching. Do you:",
+    "choices": [
+      "Deliver a careful, documented ruling steeped in texts and precedents, binding both parties to the law.",
+      "Propose a compromise festival that gives both sides a share of ceremony and thus dissipates grievance into theatre.",
+      "Postpone judgment until you have negotiated a personal concession from each party that enriches your coffers."
+    ]
+  },
+  {
+    "title": "Mirror and Beast",
+    "text": "In a cavern beneath an abandoned observatory a glass-eyed creature offers to grant your heart's desire in exchange for your reflection—literally, your face in a silvered pane. The mirror catches starlight and whispers in the accent of those who have had too much to drink. Do you:",
+    "choices": [
+      "Challenge the creature's offer with an affront of steel: test your fate in trial rather than bargain for an easy wish.",
+      "Question the terms exhaustively—what precisely is lost? Can it be leased? Are there clauses for daylight?",
+      "Agree without hesitation, take the bargain, and thereafter use your altered visage to pursue hidden goals."
+    ]
+  },
+  {
+    "title": "Threads of Gossip",
+    "text": "A rumor you started (for art, you swear) blooms into a fashionable lie that elevates one noble and ruins another. The city's seamstresses stitch it into fans, and ambassadors fan the flames. A curious child asks you if lying for beauty is wicked. Do you:",
+    "choices": [
+      "Deny responsibility with such luminous charm that the child believes you a force of providence.",
+      "Admit partial authorship but recast the lie as an aesthetic experiment meant to correct poor taste.",
+      "Point at the ruined noble, whisper a different rumor, and watch the fashions change yet again."
+    ]
+  },
+  {
+    "title": "Stable, Servants, and Subversion",
+    "text": "Your lord demands you clean the Palace stables alone as penance for a trivial indiscretion. The stablemaster winks and offers to teach you a secret knot that opens chests. Soldiers march, trumpets blare, and hay sneezes. Do you:",
+    "choices": [
+      "Perform the task with cheerful competence, using the labour as quiet penance and proof of humility.",
+      "Organize the staff into a well-drilled corps, improve efficiency, and accept credit while the lord praises your initiative.",
+      "Turn the task into an opportunity: learn the knot, liberate one chest of grain for the hungry, and claim you found it so."
+    ]
+  },
+  {
+    "title": "Wires, Wards, and Wonder",
+    "text": "You awaken inside a laboratory of gleaming brass where machines hum with music and a contraption ticks down an indecipherable timer. A ledger nearby lists your name as 'consultant' and 'co-conspirator.' The lead instrument gleams like a challenge. Do you:",
+    "choices": [
+      "Document every instrument, every setting, and draft a paper that will change how scholars see causality.",
+      "Experiment boldly: engage the device's controls until either revelation or explosion occurs.",
+      "Pocket a few remarkable components, leave an enigmatic note, and depart to fund your own quieter inventions."
+    ]
+  },
+  {
+    "title": "Sea Monsters and Ship's Gold",
+    "text": "A mariner brings you a chart of a lucrative route abandoned after a leviathan devoured three fleets. The Navy refuses; insurers flee. You can organize a full-scale expedition—mercenaries, charms, and cannon—or wait and pick up the spoils later. The gulls seem undecided. Do you:",
+    "choices": [
+      "Raise a company, hire brave captains, and sail immediately, emblazoning your banner across the route.",
+      "Wait until a safer passage appears, then swoop in to buy the cleared ships and routes at a bargain.",
+      "Stage carefully engineered 'monster' sightings to frighten competitors away, then quietly clear the route yourself."
+    ]
+  },
+  {
+    "title": "The Jheegala's Whisper",
+    "text": "A secretive Jheegala—draped in colors that change like the underside of a coin—slides you a folded note containing a single impossible instruction: 'If you wish to change your fate, begin here.' The instruction is small, cunning, and oddly personal; it would unravel a political marriage or secure a fortune depending on how you follow it. The candle gutters as if expecting drama. Do you:",
+    "choices": [
+      "Follow the instruction with patient cunning, threading the small act into a larger plan only you can envision.",
+      "Refuse, keeping your life as it stands, but memorably betray the Jheegala for reasons you will later invent.",
+      "Perform the instruction half-heartedly, then capitalize on the chaos it creates to buy influence and allies."
+    ]
+  }
+]
