@@ -37,11 +37,13 @@ def show_screen(screen_id):
         else:
             element.classList.add('hidden')
 
+
 def set_theme(colors):
     """Apply a color theme to the page"""
     root = document.documentElement
     for key, value in colors.items():
         root.style.setProperty(f'--{key.replace("_", "-")}', value)
+
 
 def display_question():
     """Display the current question"""
@@ -136,6 +138,7 @@ def calculate_results():
     # Apply winner's color scheme
     set_theme(COLOR_THEMES[winner])
 
+
 @when("click", "#start-quiz")
 def start_quiz(event):
     """Start the quiz"""
@@ -212,6 +215,7 @@ def next_question(event):
         calculate_results()
         show_screen('results-screen')
 
+
 @when("click", "#back-btn")
 def previous_question(event):
     """Go back to previous question"""
@@ -220,6 +224,7 @@ def previous_question(event):
     if current_question > 0:
         current_question -= 1
         display_question()
+
 
 @when("click", "#restart-btn")
 def restart_quiz(event):
@@ -231,6 +236,7 @@ def restart_quiz(event):
     # set_theme(COLOR_THEMES['default'])
 
     show_screen('welcome-screen')
+
 
 # Initialize
 def init():
