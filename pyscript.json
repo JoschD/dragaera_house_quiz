@@ -1,6 +1,7 @@
 {
   "packages": ["numpy"],
   "files": {
+    "./app_utils.py": "./app_utils.py",
     "./questions.json": "./questions.json",
     "./answers.json": "./answers.json",
     "./house_colors.json": "./house_colors.json",

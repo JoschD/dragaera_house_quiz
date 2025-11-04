@@ -1,19 +1,7 @@
-import json
-from pathlib import Path
-from pyscript import document, when
 import numpy as np
+from app_utils import QUESTIONS, DESCRIPTIONS, COLOR_THEMES, calculate_results
+from pyscript import document, when
 
-# House color schemes
-COLOR_THEMES = json.loads(Path('./house_colors.json').read_text())
-
-# Questions data structure
-QUESTIONS = json.loads(Path('./questions.json').read_text())
-
-# House answers (for each question: 0, 1, 2 corresponding to first, second, third choice)
-HOUSE_ANSWERS = json.loads(Path('./answers.json').read_text())
-
-# House descriptions
-DESCRIPTIONS = json.loads(Path('./houses.json').read_text())
 
 # Quiz state
 current_question = 0
@@ -24,8 +12,9 @@ selected_choice = None
 def init_user_state():
     """Initialize user state"""
     global user_answers, user_weights
-    user_answers = np.zeros(len(QUESTIONS))
+    user_answers = np.zeros(len(QUESTIONS), dtype=int)
     user_weights = 2*np.ones(len(QUESTIONS))
+
 
 def show_screen(screen_id):
     """Show a specific screen and hide others"""
@@ -88,21 +77,11 @@ def display_question():
     back_btn = document.querySelector('#back-btn')
     back_btn.disabled = current_question == 0
 
-def calculate_results():
-    """Calculate house affinities and display results"""
-    print("Calculating results... 🧮")
-    print(f"User answers: {user_answers}")
-    print(f"User weights: {user_weights}")
-    results = {}
 
-    for house_name, house_answers in HOUSE_ANSWERS.items():
-        # Calculate percentage match
-        matches = (user_answers == house_answers) * user_weights
-        total_possible = np.sum(user_weights)
-        percentage = (np.sum(matches) / total_possible) * 100
-        results[house_name] = percentage
-
+def display_results():
+    """Display the results on the results screen"""
     # Sort by percentage (descending)
+    results = calculate_results(user_answers, user_weights)
     sorted_results = sorted(results.items(), key=lambda x: x[1], reverse=True)
 
     # Display results
@@ -212,7 +191,7 @@ def next_question(event):
         current_question += 1
         display_question()
     else:
-        calculate_results()
+        display_results()
         show_screen('results-screen')
 
 

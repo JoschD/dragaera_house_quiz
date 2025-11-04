@@ -1,172 +1,155 @@
 [
   {
-    "title": "The Incident of the Disputed Inheritance",
-    "text": "You discover that your late uncle's estate—comprising three fine horses, a small vineyard, and a collection of antique swords—has been claimed by a distant cousin who presents documents of questionable authenticity. The local magistrate appears disinclined to intervene. How do you proceed?",
+    "title": "The Affair of the Enchantress's Hospitality",
+    "text": "It has come to your attention—through means which we shall not examine too closely, lest we become entangled in matters of Sources and Discretion—that a certain lady of your acquaintance has been, shall we say, invited rather insistently to the fortress of Dzur Mountain. The Enchantress of Dzur Mountain, whose reputation in matters of sorcery and longevity requires no elaboration from this historian, has extended what some might call hospitality and others might term captivity. The lady's family, it must be noted, has offered a considerable reward for her retrieval.",
     "choices": [
-      "Challenge the cousin to a duel at dawn, for honor demands satisfaction and the matter shall be settled by steel",
-      "Hire an advocate well-versed in Imperial law and pursue the matter through every available court, however long it may take",
-      "Arrange a private meeting with the cousin to negotiate a settlement that benefits both parties, perhaps over wine"
-    ],
-    "houses": ["Dzur", "Iorich", "Jhereg"]
+      "Assemble a band of worthy companions and ascend to Dzur Mountain forthwith, for a true hero does not calculate odds when honor and a lady's freedom hang in the balance",
+      "Request a formal audience with the Enchantress through proper channels, for she is known to respect protocol and may be persuaded through reasoned discourse",
+      "Investigate the circumstances more thoroughly before acting, for the Enchantress rarely acts without cause, and understanding her motivations may prove more valuable than hasty rescue"
+    ]
   },
   {
-    "title": "The Matter of the Overheard Conspiracy",
-    "text": "While dining at a reputable establishment, you overhear two nobles at the adjacent table discussing what appears to be a plot to embarrass a high-ranking official at the upcoming Imperial Ball. The matter does not directly concern you, yet you possess information that could prevent scandal.",
+    "title": "The Question of Advancement Within the Court",
+    "text": "You find yourself, dear reader, positioned mere steps from a seat on the Imperial Council—a position which, as any student of the Cycle will acknowledge, carries with it influence both considerable and consequential. Three paths present themselves to secure this final advancement, each with its advocates among those whose counsel you have sought, and each presenting a rather different approach to the matter of personal elevation.",
     "choices": [
-      "Immediately report what you have heard to the proper authorities, as duty demands",
-      "Investigate the matter further on your own, gathering evidence before deciding on a course of action",
-      "Mind your own affairs entirely, as the schemes of others are not your concern unless they directly threaten you or yours"
-    ],
-    "houses": ["Phoenix", "Yendi", "Jhereg"]
+      "Challenge the current Council member to formal combat, for nothing demonstrates worthiness for high position more clearly than martial prowess publicly displayed",
+      "Cultivate alliances through careful diplomacy and strategic favors, building a network of obligations that will secure support when the moment arrives",
+      "Focus on performing your current duties with such excellence that advancement becomes inevitable, trusting merit to speak louder than ambition"
+    ]
   },
   {
-    "title": "The Predicament of the Borrowed Gold",
-    "text": "A friend of long standing requests a substantial loan to cover a gambling debt that, if unpaid, will result in significant social embarrassment. You have the funds available, though lending them would require delaying your own planned renovations to your country estate.",
+    "title": "The Incident of the Sorcerous Duel",
+    "text": "A rival practitioner of the Art—for so we must call sorcery when speaking of those who have studied it formally—has challenged you to a duel of magical prowess before an audience of your peers. The challenge stems from a disagreement regarding theoretical principles which, while intellectually significant, hardly seems worth mortal danger. Yet to decline would be to concede the argument and suffer considerable damage to one's scholarly reputation.",
     "choices": [
-      "Lend the full amount without hesitation, for friendship and loyalty transcend mere financial considerations",
-      "Offer to lend a portion while helping your friend negotiate better terms with the creditor",
-      "Politely decline, suggesting instead that your friend face the consequences and learn from this experience"
-    ],
-    "houses": ["Dzur", "Jhereg", "Lyorn"]
+      "Accept immediately and prepare your most devastating spells, for in matters of Art as in matters of blade, hesitation is defeat",
+      "Accept but propose strict limitations on the duel to minimize danger while still allowing a clear demonstration of superior technique",
+      "Decline the duel but publish a detailed treatise dismantling your rival's theories, winning the argument through scholarship rather than spectacle"
+    ]
   },
   {
-    "title": "The Affair of the Artistic Commission",
-    "text": "You have commissioned a portrait from a renowned artist. Upon completion, you find the work technically masterful but discover the artist has taken considerable creative liberty, depicting you in a manner that, while flattering, bears little resemblance to your actual appearance or character.",
+    "title": "The Mystery of the Jhereg's Proposal",
+    "text": "A representative of the Organization—which is to say, a member of House Jhereg engaged in those commercial enterprises we shall tactfully decline to specify—approaches you with a business proposition. The venture is, we must acknowledge, likely to be profitable beyond ordinary measure, and the Jhereg assures you that your role would be entirely legitimate, serving merely as a respectable face for the enterprise. Your involvement would require neither knowledge of nor participation in any of the venture's less savory aspects.",
     "choices": [
-      "Accept the portrait graciously and display it prominently, for art serves a higher truth than mere physical accuracy",
-      "Request that the artist revise the work to achieve a more accurate representation, as truth in all things is paramount",
-      "Pay for the work but decline to display it, commissioning a different artist who will follow your specifications precisely"
-    ],
-    "houses": ["Tiassa", "Phoenix", "Jhegaala"]
+      "Accept the proposal, for gold is gold regardless of its source, and maintaining willful ignorance of details is a time-honored tradition among the nobility",
+      "Decline politely but firmly, for association with the Jhereg, however profitable, inevitably leads to complications that no amount of wealth can remedy",
+      "Express interest but insist on knowing every detail of the operation before committing, for entering any arrangement blindly is the mark of a fool"
+    ]
   },
   {
-    "title": "The Incident at the Mountain Pass",
-    "text": "While traveling through a remote mountain pass, your party encounters a group of bandits demanding a toll for safe passage. You outnumber them, but conflict would likely result in casualties on both sides. The bandits appear desperate rather than professional criminals.",
+    "title": "The Predicament of the Phoenix Heir",
+    "text": "The current Cycle approaches its end, and a young Phoenix—heir to a distinguished lineage—seeks your counsel on how best to prepare for the rising of their House to Imperial power. This Phoenix, whose sincerity is evident even if their practical experience is limited, asks whether they should spend these final years in military service, scholarly study, or traveling the Empire to understand its peoples. Your advice, it seems, will significantly influence their path.",
     "choices": [
-      "Refuse to pay and prepare for battle, for yielding to extortion sets a dangerous precedent",
-      "Negotiate a reduced toll while making note of their faces to report them to authorities at your destination",
-      "Pay the toll without complaint and continue on your way, as your time and safety are worth more than gold"
-    ],
-    "houses": ["Dragon", "Orca", "Chreotha"]
+      "Recommend military service, for leaders must understand strategy, command, and the realities of warfare if they are to rule effectively",
+      "Suggest scholarly pursuits, for knowledge of history, law, and sorcery forms the foundation of wise governance",
+      "Advise extensive travel and observation, for understanding the Empire's diverse peoples and their needs is worth more than any amount of book learning"
+    ]
   },
   {
-    "title": "The Mystery of the Anonymou Gift",
-    "text": "You receive an expensive gift—a finely crafted dagger of obvious quality—with no indication of the sender. Inquiries among your acquaintances yield no answers, and the merchant who delivered it claims ignorance of the patron's identity, having been paid by an intermediary.",
+    "title": "The Affair of the Teckla Uprising",
+    "text": "In a province adjacent to your own holdings, the Teckla have risen in revolt—not, we must note, against the Empire itself, but against certain local practices of taxation and labor obligation which they claim exceed both law and custom. The local Dragon lord has requested your assistance in suppressing this disorder, yet you have also received a petition from the Teckla themselves, presenting their grievances with surprising eloquence and citing specific Imperial precedents.",
     "choices": [
-      "Keep the weapon and remain alert, for such a gift likely carries obligations or dangers that will reveal themselves in time",
-      "Conduct a thorough investigation to determine the sender's identity before deciding whether to keep or return the gift",
-      "Return the gift to the merchant and refuse all anonymous presents, as accepting obligations to unknown parties is unwise"
-    ],
-    "houses": ["Yendi", "Lyorn", "Orca"]
+      "Support the Dragon lord immediately with troops, for regardless of the merit of grievances, rebellion against lawful authority cannot be tolerated",
+      "Offer to mediate the dispute, investigating the Teckla's claims and attempting to negotiate a settlement that addresses legitimate grievances",
+      "Decline involvement entirely, for the matter lies outside your jurisdiction and interference in a neighboring lord's affairs sets dangerous precedents"
+    ]
   },
   {
-    "title": "The Question of the Imprudent Servant",
-    "text": "Your most trusted servant, in your employ for fifteen years, has been discovered stealing small amounts of wine from your cellar—not for sale, but for personal consumption. The quantities are negligible, but the principle of theft has been violated.",
+    "title": "The Question of the Experimental Sorcery",
+    "text": "An Athyra colleague has developed a sorcerous technique that could, if successful, allow direct observation of events from the past—not through historical record, but through actual temporal viewing. The potential for historical scholarship is revolutionary; however, the experiment requires a test subject, and there exists a non-trivial possibility that said subject might become temporarily lost in time. Your colleague, with admirable directness, asks if you would volunteer.",
     "choices": [
-      "Dismiss the servant immediately and publicly, for trust once broken cannot be restored and examples must be set",
-      "Reprimand the servant severely and dock their wages for the value stolen, but maintain their employment",
-      "Have a private conversation to understand their motivations, then decide based on their explanation and your assessment of their character"
-    ],
-    "houses": ["Dragon", "Orca", "Issola"]
+      "Volunteer enthusiastically, for the advancement of knowledge justifies considerable personal risk, and what glory to be the first to achieve such a feat!",
+      "Decline to participate personally but offer to help recruit other volunteers and provide resources for the experiment",
+      "Attempt to dissuade your colleague from the experiment entirely, for tampering with time seems likely to produce consequences far beyond anyone's ability to predict or control"
+    ]
   },
   {
-    "title": "The Dilemma of the Political Alliance",
-    "text": "A powerful noble offers an advantageous political alliance that would significantly advance your family's standing at court. However, this noble is known for holding views on Imperial policy that directly contradict your own deeply-held convictions regarding the treatment of Eastern provinces.",
+    "title": "The Incident at the Iorich Court",
+    "text": "You have been called to testify in a trial where a defendant, whom you believe to be innocent based on your personal knowledge of their character, faces conviction due to circumstantial evidence that appears damning. You possess no concrete evidence of their innocence, only your strong personal conviction. The Iorich presiding has made clear they will accept only factual testimony, not character references or personal opinions.",
     "choices": [
-      "Accept the alliance, for political advantage should not be sacrificed for abstract principles when real power is at stake",
-      "Decline politely but firmly, as compromising one's fundamental beliefs for advancement is the path to dishonor",
-      "Accept the alliance while privately working to moderate the noble's views or to limit their influence on related policies"
-    ],
-    "houses": ["Jhereg", "Phoenix", "Yendi"]
+      "Testify honestly within the court's constraints, presenting only facts and accepting that justice must follow proper procedure even if the outcome troubles you",
+      "Find a way to present your conviction of their innocence persuasively while remaining technically within the court's guidelines, using rhetoric to sway opinion",
+      "Refuse to testify at all rather than participate in what you believe will be a miscarriage of justice, and instead work outside the court to prove the defendant's innocence"
+    ]
   },
   {
-    "title": "The Circumstance of the Challenged Duel",
-    "text": "You have been challenged to a duel by a hot-headed young noble over a perceived slight that was, in truth, entirely unintentional on your part. The challenger is known to be an excellent swordsman, though inexperienced in actual combat. Refusing would damage your reputation, but you have no desire to kill or be killed over a misunderstanding.",
+    "title": "The Dilemma of the Lyorn Succession",
+    "text": "A distant relative, whose claim to your House's ancient seat is technically superior to your own by the strictest interpretation of traditional succession law, has emerged after years abroad and formally asserted their right to the title you currently hold. Your own claim rests on continuous residence, active stewardship, and the support of those who have known you as their lord for decades. The matter must be resolved, and the Lyorn Council awaits your decision on how to proceed.",
     "choices": [
-      "Accept the duel without hesitation, for honor demands it, and trust in your own skill and the gods to determine the outcome",
-      "Attempt to resolve the misunderstanding through intermediaries, offering a formal apology to avoid bloodshed",
-      "Accept the duel but plan to disarm rather than kill your opponent, demonstrating both courage and mercy"
-    ],
-    "houses": ["Dzur", "Issola", "Tiassa"]
+      "Acknowledge their superior claim immediately and cede the title with grace, for tradition and law must supersede personal attachment or practical considerations",
+      "Contest the claim through every legal means available, for active stewardship and earned loyalty should weigh more heavily than bloodline technicalities",
+      "Propose a compromise where you retain the title for your lifetime with succession passing to your relative, honoring both tradition and present reality"
+    ]
   },
   {
-    "title": "The Problem of the Failing Enterprise",
-    "text": "A business venture in which you have invested substantially is failing due to circumstances beyond anyone's control—poor weather has destroyed harvests for two consecutive years. Your partners wish to continue, requesting additional investment, but advisors suggest cutting losses and withdrawing.",
+    "title": "The Matter of the Yendi's Game",
+    "text": "You have discovered that you are—and indeed, have been for some months—an unwitting piece in an elaborate political maneuver orchestrated by a Yendi master of intrigue. Several of your recent decisions, made for what seemed excellent reasons at the time, have apparently advanced this Yendi's agenda in ways you had not perceived. The scheme appears to involve no direct harm to you, but neither does it serve your interests. Most intriguingly, the Yendi has now revealed their manipulation to you directly, apparently curious to see how you will respond.",
     "choices": [
-      "Invest additional funds and remain committed to the enterprise, for loyalty to one's partners and persistence in adversity define character",
-      "Withdraw your investment immediately to minimize losses, as sentiment has no place in financial decisions",
-      "Propose restructuring the venture under new terms that distribute risk more equitably before committing further funds"
-    ],
-    "houses": ["Dzur", "Orca", "Jhegaala"]
+      "Confront the Yendi directly and demand compensation for having been manipulated, for none should presume to use another as an unwitting tool",
+      "Study the Yendi's methods carefully and attempt to turn the situation to your own advantage, for what better education in intrigue than this?",
+      "Withdraw from the situation entirely and restructure your affairs to be less vulnerable to such manipulation in future, considering the experience a valuable lesson"
+    ]
   },
   {
-    "title": "The Situation of the Forbidden Knowledge",
-    "text": "Through circumstances of pure chance, you have come into possession of a book containing sorcerous techniques that, while not explicitly illegal, are considered dangerous and are certainly frowned upon by the Empire. The knowledge within is fascinating and potentially valuable.",
+    "title": "The Circumstance of the Oracle's Prophecy",
+    "text": "You have consulted an oracle of considerable reputation regarding a significant decision—whether to commit your forces to a military campaign whose success would bring great glory but whose failure would mean ruin. The oracle's prophecy, delivered in characteristic ambiguity, can be interpreted in two equally plausible ways: either as promising victory if you show courage, or as warning of disaster if you show recklessness. The oracle, when pressed for clarification, merely smiled and suggested that distinguishing courage from recklessness is itself the test.",
     "choices": [
-      "Study the book thoroughly, for knowledge itself is neither good nor evil, and understanding such techniques may prove useful",
-      "Turn the book over to Imperial authorities immediately, as possessing such knowledge invites both danger and suspicion",
-      "Consult with a discreet expert in such matters before deciding, gathering more information about the actual risks involved"
-    ],
-    "houses": ["Athyra", "Phoenix", "Yendi"]
+      "Commit to the campaign, interpreting the prophecy as a promise of victory for the bold, for oracles speak truth to those with courage to seize destiny",
+      "Decline the campaign, for the oracle's ambiguity itself serves as warning that the venture's risks outweigh its potential rewards",
+      "Proceed with the campaign but with careful planning and fallback positions, neither wholly trusting nor wholly dismissing the prophecy"
+    ]
   },
   {
-    "title": "The Incident of the Public Humiliation",
-    "text": "At a well-attended social gathering, a rival makes several cutting remarks about your family's recent financial difficulties. The comments, while within the bounds of propriety, are clearly intended to embarrass you before your peers. Several people are watching to see how you respond.",
+    "title": "The Question of the Issola's Request",
+    "text": "An Issola diplomat, whose courtesy is matched only by their effectiveness in delicate negotiations, requests your assistance in a matter of considerable sensitivity. Two powerful Houses stand on the brink of a conflict that could draw in half the Empire, and the Issola believes that you, specifically, possess the unique combination of relationships and reputation necessary to mediate. However, success would require weeks of your time, involve substantial personal risk, and offer no direct benefit to yourself or your House beyond the satisfaction of having prevented bloodshed.",
     "choices": [
-      "Respond with equally sharp wit, turning the embarrassment back upon your rival in a manner that demonstrates your verbal superiority",
-      "Maintain perfect composure and courtesy, refusing to acknowledge the slight and thereby demonstrating that such petty attacks cannot affect you",
-      "Challenge the rival to a duel, for such calculated disrespect to one's family cannot be tolerated regardless of social setting"
-    ],
-    "houses": ["Tiassa", "Issola", "Dzur"]
+      "Accept immediately, for the opportunity to prevent widespread conflict is itself sufficient reward, and service to the Empire transcends personal interest",
+      "Decline politely, for you have responsibilities to your own House that must take precedence over involving yourself in others' disputes, however noble the cause",
+      "Accept on the condition that the Issola secures formal recognition and compensation for your service, for even selfless acts deserve acknowledgment"
+    ]
   },
   {
-    "title": "The Matter of the Strategic Betrayal",
-    "text": "You have learned that an ally is planning to betray your mutual patron in a scheme that, while dishonorable, would likely succeed and benefit all participants except the patron. Your ally approaches you to join the conspiracy, offering substantial rewards and suggesting the patron has grown weak and ineffective.",
+    "title": "The Affair of the Vallista's Commission",
+    "text": "A Vallista architect of exceptional talent has designed a revolutionary bridge that would connect two portions of the Empire currently separated by treacherous mountain passes, reducing a journey of weeks to one of mere days. However, the construction would require demolishing a small but ancient monastery that holds significant historical value. The monks are willing to relocate if the Empire deems it necessary, but the decision falls to you as the local authority. The Vallista's design cannot be modified to preserve the structure.",
     "choices": [
-      "Join the conspiracy, for when circumstances change, alliances must adapt, and loyalty to a failing cause is mere stubbornness",
-      "Refuse participation and warn your patron immediately, as betrayal is betrayal regardless of potential benefits",
-      "Refuse to participate but remain silent about the conspiracy, allowing events to unfold without your involvement"
-    ],
-    "houses": ["Jhereg", "Lyorn", "Chreotha"]
+      "Approve the bridge's construction, for the living should not be held hostage to the past, and the practical benefit to thousands outweighs sentiment for old stones",
+      "Refuse the project, for some things once destroyed cannot be replaced, and the Empire possesses sufficient roads without sacrificing its heritage",
+      "Commission a thorough documentation of the monastery before its demolition and ensure its treasures are preserved, attempting to honor both progress and history"
+    ]
   },
   {
-    "title": "The Question of the Experimental Method",
-    "text": "You have an opportunity to participate in a sorcerous experiment that could significantly advance understanding of the Orb's nature. However, the experiment carries substantial personal risk, and the researcher leading it acknowledges that the probability of success is uncertain at best.",
+    "title": "The Incident of the Dragon's Challenge",
+    "text": "During a formal gathering, a Dragon noble—whose reputation for martial prowess is exceeded only by their reputation for arrogance—publicly declares that your House has grown soft and irrelevant in the current Cycle, suggesting that none of your generation would survive a day in actual combat. This pronouncement is clearly intended to provoke a response, and the assembled nobles await your reaction with considerable interest. To ignore the slight would seemingly confirm it; to respond might play directly into the Dragon's hands.",
     "choices": [
-      "Volunteer eagerly, for the advancement of knowledge and the glory of potential discovery far outweigh personal danger",
-      "Decline participation, as risking one's life for uncertain theoretical gains demonstrates poor judgment",
-      "Offer to assist with the experiment in a supporting role that minimizes personal risk while still contributing to the work"
-    ],
-    "houses": ["Athyra", "Chreotha", "Teckla"]
+      "Challenge the Dragon to immediate combat, for such insults cannot be tolerated and must be answered with steel regardless of the challenger's evident skill",
+      "Respond with cutting wit that undermines the Dragon's credibility without requiring violence, demonstrating that cleverness is itself a form of strength",
+      "Ignore the provocation entirely with deliberate, obvious disdain, for acknowledging such transparent attempts at manipulation only grants them importance they do not merit"
+    ]
   },
   {
-    "title": "The Dilemma of the Unjust Law",
-    "text": "A new Imperial decree, perfectly legal and properly promulgated, requires actions that you find morally unconscionable—specifically, the increased taxation of Eastern merchants in a manner you believe constitutes unjust persecution. Compliance is mandatory, and non-compliance would result in severe penalties.",
+    "title": "The Mystery of the Chreotha's Hunt",
+    "text": "You have been invited to join a Chreotha noble on a hunt for a creature that, according to rumor, should not exist—some speak of a dzur of unusual size and intelligence, while others whisper of something far stranger. The Chreotha claims to have tracked this creature for months and believes it represents either a significant zoological discovery or a dangerous predator that threatens nearby settlements. The hunt will be arduous and possibly dangerous, but the Chreotha's enthusiasm is infectious, and their tracking skills are undeniable.",
     "choices": [
-      "Comply with the law while working through proper channels to have it revised or repealed, for the law must be obeyed even when unjust",
-      "Refuse to comply and accept whatever penalties result, for conscience must take precedence over law when they conflict",
-      "Find creative ways to technically comply with the letter of the law while subverting its intent, protecting those you believe are unjustly targeted"
-    ],
-    "houses": ["Phoenix", "Dragon", "Yendi"]
+      "Join the hunt eagerly, for the pursuit of mystery and the test of skill against a worthy opponent is its own reward, regardless of practical benefit",
+      "Decline the invitation, for chasing rumors into wilderness seems an inefficient use of time when genuine responsibilities await at home",
+      "Accompany the hunt but focus on observing and documenting rather than participating in the kill, for understanding the creature matters more than slaying it"
+    ]
   },
   {
-    "title": "The Circumstance of the Collapsing Bridge",
-    "text": "While crossing a bridge with a group of travelers, you notice alarming structural damage that suggests imminent collapse. There is time for most to cross, but you are at the rear of the group. Warning everyone might cause a panic that ensures the bridge's collapse, while remaining silent would allow those ahead to cross safely but might doom those behind.",
+    "title": "The Predicament of the Tsalmoth's Bargain",
+    "text": "A Tsalmoth merchant offers you an arrangement whereby you would provide your name and rank as endorsement for their enterprise—a perfectly legitimate trading company—in exchange for a percentage of profits. The merchant is honest about the enterprise's modest prospects and significant competition, but believes your association would provide the credibility necessary to attract investors. The arrangement would require minimal effort on your part but would permanently link your reputation to the company's fortunes, whether favorable or otherwise.",
     "choices": [
-      "Shout a clear warning immediately, for everyone deserves knowledge of the danger even if panic results",
-      "Quickly but calmly organize an orderly crossing, using your authority to prevent panic while expediting passage",
-      "Ensure you cross to safety first, then warn those behind, for you cannot help others if you perish in the collapse"
-    ],
-    "houses": ["Phoenix", "Issola", "Jhereg"]
+      "Accept the arrangement, for passive income from legitimate enterprise is sensible, and supporting commerce benefits the Empire broadly",
+      "Decline, for tying one's reputation to another's business creates vulnerabilities and obligations that no amount of profit justifies",
+      "Propose becoming a silent investor instead, providing capital rather than endorsement, thus sharing in potential rewards while limiting reputational risk"
+    ]
   },
   {
-    "title": "The Affair of the Discovered Treasure",
-    "text": "While exploring ruins on your estate, you discover a cache of ancient treasures—coins, jewelry, and artifacts of considerable historical value. By law, such finds must be reported to Imperial authorities, who will claim a substantial portion. However, the discovery was made on your land, and no one else knows of it.",
+    "title": "The Question of the Jhegaala's Transformation",
+    "text": "You encounter a Jhegaala who claims to have recently undergone the transformation for which their House is known—abandoning their previous identity entirely to assume a new name, profession, and place in society. They reveal this to you because, in their previous life, you owed them a substantial debt that remains legally valid. However, Jhegaala tradition holds that such debts are voided by transformation, as the creditor no longer exists in any meaningful sense. The Jhegaala seems genuinely curious whether you will honor the legal obligation or respect their House's tradition.",
     "choices": [
-      "Report the find immediately and completely, for the law is the law and your honor requires compliance regardless of personal cost",
-      "Keep the discovery secret and dispose of the items through private channels, for what is found on your land is rightfully yours",
-      "Report a portion of the find while keeping the most valuable items, satisfying legal requirements while protecting your interests"
-    ],
-    "houses": ["Lyorn", "Jhereg", "Orca"]
+      "Pay the debt in full, for legal obligations transcend personal transformation, and one cannot escape responsibility through deliberate reinvention",
+      "Refuse payment, for respecting House Jhegaala's traditions regarding transformation is itself a form of obligation, and they have chosen to embrace that tradition",
+      "Offer to pay as much of the money as they choose to a cause of their own volition, acknowledging both the legal claim and the tradition's significance, and proposing this compromise as honoring both principles"
+    ]
   }
 ]
