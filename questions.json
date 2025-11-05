@@ -1,6 +1,7 @@
 [
   {
     "title": "The Affair of the Enchantress's Hospitality",
+    "short": "Enchantress",
     "text": "It has come to your attention—through means which we shall not examine too closely, lest we become entangled in matters of Sources and Discretion—that a certain lady of your acquaintance has been, shall we say, invited rather insistently to the fortress of Dzur Mountain. The Enchantress of Dzur Mountain, whose reputation in matters of sorcery and longevity requires no elaboration from this historian, has extended what some might call hospitality and others might term captivity. The lady's family, it must be noted, has offered a considerable reward for her retrieval.",
     "choices": [
       "Assemble a band of worthy companions and ascend to Dzur Mountain forthwith, for a true hero does not calculate odds when honor and a lady's freedom hang in the balance",
@@ -10,6 +11,7 @@
   },
   {
     "title": "The Question of Advancement Within the Court",
+    "short": "Court",
     "text": "You find yourself, dear reader, positioned mere steps from a seat on the Imperial Council—a position which, as any student of the Cycle will acknowledge, carries with it influence both considerable and consequential. Three paths present themselves to secure this final advancement, each with its advocates among those whose counsel you have sought, and each presenting a rather different approach to the matter of personal elevation.",
     "choices": [
       "Challenge the current Council member to formal combat, for nothing demonstrates worthiness for high position more clearly than martial prowess publicly displayed",
@@ -19,6 +21,7 @@
   },
   {
     "title": "The Incident of the Sorcerous Duel",
+    "short": "Duel",
     "text": "A rival practitioner of the Art—for so we must call sorcery when speaking of those who have studied it formally—has challenged you to a duel of magical prowess before an audience of your peers. The challenge stems from a disagreement regarding theoretical principles which, while intellectually significant, hardly seems worth mortal danger. Yet to decline would be to concede the argument and suffer considerable damage to one's scholarly reputation.",
     "choices": [
       "Accept immediately and prepare your most devastating spells, for in matters of Art as in matters of blade, hesitation is defeat",
@@ -28,6 +31,7 @@
   },
   {
     "title": "The Mystery of the Jhereg's Proposal",
+    "short": "Jhereg",
     "text": "A representative of the Organization—which is to say, a member of House Jhereg engaged in those commercial enterprises we shall tactfully decline to specify—approaches you with a business proposition. The venture is, we must acknowledge, likely to be profitable beyond ordinary measure, and the Jhereg assures you that your role would be entirely legitimate, serving merely as a respectable face for the enterprise. Your involvement would require neither knowledge of nor participation in any of the venture's less savory aspects.",
     "choices": [
       "Accept the proposal, for gold is gold regardless of its source, and maintaining willful ignorance of details is a time-honored tradition among the nobility",
@@ -37,6 +41,7 @@
   },
   {
     "title": "The Predicament of the Phoenix Heir",
+    "short": "Phoenix",
     "text": "The current Cycle approaches its end, and a young Phoenix—heir to a distinguished lineage—seeks your counsel on how best to prepare for the rising of their House to Imperial power. This Phoenix, whose sincerity is evident even if their practical experience is limited, asks whether they should spend these final years in military service, scholarly study, or traveling the Empire to understand its peoples. Your advice, it seems, will significantly influence their path.",
     "choices": [
       "Recommend military service, for leaders must understand strategy, command, and the realities of warfare if they are to rule effectively",
@@ -46,6 +51,7 @@
   },
   {
     "title": "The Affair of the Teckla Uprising",
+    "short": "Uprising",
     "text": "In a province adjacent to your own holdings, the Teckla have risen in revolt—not, we must note, against the Empire itself, but against certain local practices of taxation and labor obligation which they claim exceed both law and custom. The local Dragon lord has requested your assistance in suppressing this disorder, yet you have also received a petition from the Teckla themselves, presenting their grievances with surprising eloquence and citing specific Imperial precedents.",
     "choices": [
       "Support the Dragon lord immediately with troops, for regardless of the merit of grievances, rebellion against lawful authority cannot be tolerated",
@@ -55,6 +61,7 @@
   },
   {
     "title": "The Question of the Experimental Sorcery",
+    "short": "Athyra",
     "text": "An Athyra colleague has developed a sorcerous technique that could, if successful, allow direct observation of events from the past—not through historical record, but through actual temporal viewing. The potential for historical scholarship is revolutionary; however, the experiment requires a test subject, and there exists a non-trivial possibility that said subject might become temporarily lost in time. Your colleague, with admirable directness, asks if you would volunteer.",
     "choices": [
       "Volunteer enthusiastically, for the advancement of knowledge justifies considerable personal risk, and what glory to be the first to achieve such a feat!",
@@ -64,6 +71,7 @@
   },
   {
     "title": "The Incident at the Iorich Court",
+    "short": "Iorich",
     "text": "You have been called to testify in a trial where a defendant, whom you believe to be innocent based on your personal knowledge of their character, faces conviction due to circumstantial evidence that appears damning. You possess no concrete evidence of their innocence, only your strong personal conviction. The Iorich presiding has made clear they will accept only factual testimony, not character references or personal opinions.",
     "choices": [
       "Testify honestly within the court's constraints, presenting only facts and accepting that justice must follow proper procedure even if the outcome troubles you",
@@ -73,6 +81,7 @@
   },
   {
     "title": "The Dilemma of the Lyorn Succession",
+    "short": "Lyorn",
     "text": "A distant relative, whose claim to your House's ancient seat is technically superior to your own by the strictest interpretation of traditional succession law, has emerged after years abroad and formally asserted their right to the title you currently hold. Your own claim rests on continuous residence, active stewardship, and the support of those who have known you as their lord for decades. The matter must be resolved, and the Lyorn Council awaits your decision on how to proceed.",
     "choices": [
       "Acknowledge their superior claim immediately and cede the title with grace, for tradition and law must supersede personal attachment or practical considerations",
@@ -82,6 +91,7 @@
   },
   {
     "title": "The Matter of the Yendi's Game",
+    "short": "Yendi",
     "text": "You have discovered that you are—and indeed, have been for some months—an unwitting piece in an elaborate political maneuver orchestrated by a Yendi master of intrigue. Several of your recent decisions, made for what seemed excellent reasons at the time, have apparently advanced this Yendi's agenda in ways you had not perceived. The scheme appears to involve no direct harm to you, but neither does it serve your interests. Most intriguingly, the Yendi has now revealed their manipulation to you directly, apparently curious to see how you will respond.",
     "choices": [
       "Confront the Yendi directly and demand compensation for having been manipulated, for none should presume to use another as an unwitting tool",
@@ -91,6 +101,7 @@
   },
   {
     "title": "The Circumstance of the Oracle's Prophecy",
+    "short": "Oracle",
     "text": "You have consulted an oracle of considerable reputation regarding a significant decision—whether to commit your forces to a military campaign whose success would bring great glory but whose failure would mean ruin. The oracle's prophecy, delivered in characteristic ambiguity, can be interpreted in two equally plausible ways: either as promising victory if you show courage, or as warning of disaster if you show recklessness. The oracle, when pressed for clarification, merely smiled and suggested that distinguishing courage from recklessness is itself the test.",
     "choices": [
       "Commit to the campaign, interpreting the prophecy as a promise of victory for the bold, for oracles speak truth to those with courage to seize destiny",
@@ -100,6 +111,7 @@
   },
   {
     "title": "The Question of the Issola's Request",
+    "short": "Issola",
     "text": "An Issola diplomat, whose courtesy is matched only by their effectiveness in delicate negotiations, requests your assistance in a matter of considerable sensitivity. Two powerful Houses stand on the brink of a conflict that could draw in half the Empire, and the Issola believes that you, specifically, possess the unique combination of relationships and reputation necessary to mediate. However, success would require weeks of your time, involve substantial personal risk, and offer no direct benefit to yourself or your House beyond the satisfaction of having prevented bloodshed.",
     "choices": [
       "Accept immediately, for the opportunity to prevent widespread conflict is itself sufficient reward, and service to the Empire transcends personal interest",
@@ -109,6 +121,7 @@
   },
   {
     "title": "The Affair of the Vallista's Commission",
+    "short": "Vallista",
     "text": "A Vallista architect of exceptional talent has designed a revolutionary bridge that would connect two portions of the Empire currently separated by treacherous mountain passes, reducing a journey of weeks to one of mere days. However, the construction would require demolishing a small but ancient monastery that holds significant historical value. The monks are willing to relocate if the Empire deems it necessary, but the decision falls to you as the local authority. The Vallista's design cannot be modified to preserve the structure.",
     "choices": [
       "Approve the bridge's construction, for the living should not be held hostage to the past, and the practical benefit to thousands outweighs sentiment for old stones",
@@ -118,6 +131,7 @@
   },
   {
     "title": "The Incident of the Dragon's Challenge",
+    "short": "Dragon",
     "text": "During a formal gathering, a Dragon noble—whose reputation for martial prowess is exceeded only by their reputation for arrogance—publicly declares that your House has grown soft and irrelevant in the current Cycle, suggesting that none of your generation would survive a day in actual combat. This pronouncement is clearly intended to provoke a response, and the assembled nobles await your reaction with considerable interest. To ignore the slight would seemingly confirm it; to respond might play directly into the Dragon's hands.",
     "choices": [
       "Challenge the Dragon to immediate combat, for such insults cannot be tolerated and must be answered with steel regardless of the challenger's evident skill",
@@ -127,6 +141,7 @@
   },
   {
     "title": "The Mystery of the Chreotha's Hunt",
+    "short": "Chreotha",
     "text": "You have been invited to join a Chreotha noble on a hunt for a creature that, according to rumor, should not exist—some speak of a dzur of unusual size and intelligence, while others whisper of something far stranger. The Chreotha claims to have tracked this creature for months and believes it represents either a significant zoological discovery or a dangerous predator that threatens nearby settlements. The hunt will be arduous and possibly dangerous, but the Chreotha's enthusiasm is infectious, and their tracking skills are undeniable.",
     "choices": [
       "Join the hunt eagerly, for the pursuit of mystery and the test of skill against a worthy opponent is its own reward, regardless of practical benefit",
@@ -136,6 +151,7 @@
   },
   {
     "title": "The Predicament of the Tsalmoth's Bargain",
+    "short": "Tsalmoth",
     "text": "A Tsalmoth merchant offers you an arrangement whereby you would provide your name and rank as endorsement for their enterprise—a perfectly legitimate trading company—in exchange for a percentage of profits. The merchant is honest about the enterprise's modest prospects and significant competition, but believes your association would provide the credibility necessary to attract investors. The arrangement would require minimal effort on your part but would permanently link your reputation to the company's fortunes, whether favorable or otherwise.",
     "choices": [
       "Accept the arrangement, for passive income from legitimate enterprise is sensible, and supporting commerce benefits the Empire broadly",

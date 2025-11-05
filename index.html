@@ -61,15 +61,15 @@
                 <span class="importance-label">How important is this question to you?</span>
                 <div class="importance-options">
                     <div class="importance-option">
-                        <input type="radio" id="importance-low" name="importance" value="1">
+                        <input type="radio" id="importance-low" name="importance" value="0">
                         <label for="importance-low">Less Important</label>
                     </div>
                     <div class="importance-option">
-                        <input type="radio" id="importance-normal" name="importance" value="2" checked>
+                        <input type="radio" id="importance-normal" name="importance" value="1" checked>
                         <label for="importance-normal">Normal</label>
                     </div>
                     <div class="importance-option">
-                        <input type="radio" id="importance-high" name="importance" value="3">
+                        <input type="radio" id="importance-high" name="importance" value="2">
                         <label for="importance-high">Very Important</label>
                     </div>
                 </div>
@@ -88,12 +88,13 @@
                 <p>The examination is complete! After careful consideration of your responses, we have calculated your affinity with each of the Great Houses.</p>
             </div>
 
-            <div class="results-chart" id="results-chart">
-                <!-- Results will be populated by Python -->
-            </div>
-
             <div class="house-description" id="house-description">
                 <!-- Winner description will be populated by Python -->
+            </div>
+
+
+            <div class="results-chart" id="results-chart">
+                <!-- Results will be populated by Python -->
             </div>
 
             <div class="buttons">

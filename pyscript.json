@@ -1,9 +1,9 @@
 {
   "packages": ["numpy"],
   "files": {
-    "./app_utils.py": "./app_utils.py",
-    "./questions.json": "./questions.json",
-    "./answers.json": "./answers.json",
+    "./questions.py": "./questions.py",
+    "./cycle.py": "./cycle.py",
+    "./results.py": "./results.py",
     "./house_colors.json": "./house_colors.json",
     "./houses.json": "./houses.json"
   }

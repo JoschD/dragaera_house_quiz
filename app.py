@@ -1,19 +1,21 @@
-import numpy as np
-from app_utils import QUESTIONS, DESCRIPTIONS, COLOR_THEMES, calculate_results
 from pyscript import document, when
-
+from js import console
+from questions import Question, Questions, get_questions
+from results import calculate_results, DESCRIPTIONS, COLOR_THEMES
 
 # Quiz state
-current_question = 0
-user_answers = None  # Will store index for each question
-user_weights = None  # Will store 1, 2, or 3 for importance
-selected_choice = None
+QUESTIONS: Questions = get_questions()
+user_answers: dict[str, int] | None = None  # Will store index for each question
+user_weights: dict[str, float] | None = None  # Will store 0.5, 1, or 2 for importance
+
 
 def init_user_state():
     """Initialize user state"""
     global user_answers, user_weights
-    user_answers = np.zeros(len(QUESTIONS), dtype=int)
-    user_weights = 2*np.ones(len(QUESTIONS))
+
+    QUESTIONS.reset()
+    user_answers = {}
+    user_weights = {}
 
 
 def show_screen(screen_id):
@@ -34,29 +36,24 @@ def set_theme(colors):
         root.style.setProperty(f'--{key.replace("_", "-")}', value)
 
 
-def display_question():
+def display_question(question: Question, index: int):
     """Display the current question"""
-    global selected_choice
-    selected_choice = None
-
-    question = QUESTIONS[current_question]
-
     # Update progress
     progress = document.querySelector('#progress')
-    progress.innerText = f"Question {current_question + 1} of {len(QUESTIONS)}"
+    progress.innerText = f"Question {index} of {len(QUESTIONS)}"
 
     # Update question text
     title = document.querySelector('#question-title')
-    title.innerText = question['title']
+    title.innerText = question.title
 
     text = document.querySelector('#question-text')
-    text.innerText = question['text']
+    text.innerText = question.text
 
     # Create choice buttons
     choices_div = document.querySelector('#choices')
     choices_div.innerHTML = ''
 
-    for i, choice_text in enumerate(question['choices']):
+    for i, choice_text in enumerate(question.choices):
         choice_html = f'''
         <div class="choice" data-value="{i}">
             <input type="radio" name="choice" id="choice-{i}" value="{i}">
@@ -75,7 +72,7 @@ def display_question():
 
     # Update back button state
     back_btn = document.querySelector('#back-btn')
-    back_btn.disabled = current_question == 0
+    back_btn.disabled = not bool(index)
 
 
 def display_results():
@@ -121,17 +118,15 @@ def display_results():
 @when("click", "#start-quiz")
 def start_quiz(event):
     """Start the quiz"""
-    global current_question
-    current_question = 0
-    print("Starting quiz... 🚀")
+    QUESTIONS.reset()
+    console.log("Starting quiz... 🚀")
     show_screen('question-screen')
-    display_question()
+    display_question(QUESTIONS.next_question(), index=0)
 
 
 @when("click", selector="#choices")
 def select_choice(event):
     """Delegate choice selection"""
-    global selected_choice
     target = event.target
     if not target:
         return
@@ -158,6 +153,7 @@ def select_choice(event):
 
     # Get the value
     selected_choice = int(target.getAttribute('data-value'))
+    user_answers[QUESTIONS.current_key] = selected_choice
 
     # Check the radio button
     radio = target.querySelector('input[type="radio"]')
@@ -171,44 +167,44 @@ def select_choice(event):
 @when("click", "#next-btn")
 def next_question(event):
     """Move to next question or show results"""
-    global current_question, selected_choice
 
-    if selected_choice is None:
+    # Check that an answer was selected
+    if user_answers[QUESTIONS.current_key] is None:
         return
-
-    # Save answer
-    user_answers[current_question] = selected_choice
 
     # Save importance weight
     importance_radios = document.querySelectorAll('input[name="importance"]')
     for radio in importance_radios:
         if radio.checked:
-            user_weights[current_question] = int(radio.value)
+            user_weights[QUESTIONS.current_key] = {0: 0.5, 1:1, 2:2}[int(radio.value)]
             break
 
+    console.log(
+        f"{QUESTIONS.current_key}: "
+        f"User chose {user_answers[QUESTIONS.current_key]} with weight {user_weights[QUESTIONS.current_key]}."
+    )
+
     # Move to next question or results
-    if current_question < len(QUESTIONS) - 1:
-        current_question += 1
-        display_question()
-    else:
-        display_results()
-        show_screen('results-screen')
+    question = QUESTIONS.next_question()
+    if question is not None:
+        display_question(question, QUESTIONS.current_index)
+        return
+
+    display_results()
+    show_screen('results-screen')
 
 
 @when("click", "#back-btn")
 def previous_question(event):
     """Go back to previous question"""
-    global current_question
-
-    if current_question > 0:
-        current_question -= 1
-        display_question()
+    question = QUESTIONS.previous_question()
+    if question is not None:
+        display_question(question, QUESTIONS.current_index)
 
 
 @when("click", "#restart-btn")
 def restart_quiz(event):
     """Restart the quiz"""
-    global current_question, user_answers, user_weights
     init_user_state()
 
     # Reset to default theme
@@ -228,7 +224,7 @@ def init():
         document.addEventListener("DOMContentLoaded", on_ready)
         return
 
-    print("Quiz initialized! 🎉")
+    console.log("Quiz initialized! 🎉")
     init_user_state()
     show_screen('welcome-screen')
 
